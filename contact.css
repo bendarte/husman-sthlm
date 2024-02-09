@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Poppins:wght@400;500;600;700&family=Roboto:ital,wght@0,100;1,100&family=Taviraj:wght@100&display=swap');
+ /* Använder mig av flexbox för att göra den responsiv */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url(pp.jpg);
+  background-size: cover;
+}
+
+.contact-session {
+  display: flex;
+  flex-wrap: wrap; /* lagt wrap för att får att hantera mindre skärmar */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.contact-info,
+.contact-form {
+  max-width: 100%;
+  text-align: center;
+}
+
+.contact-info {
+  color: white;
+  font-size: 18px; /* ändrade font sizen för att få bättre läsbarhet på mindre skärm */
+  line-height: 1.6;
+}
+
+.contact-info i {
+  margin-right: 10px;
+}
+
+.contact-form {
+  color: white;
+  font-size: 18px; /* samma som ovan */
+  text-transform: uppercase;
+}
+
+.text-box,
+textarea {
+  width: 55%; /*  bredd för text fältet och textområdet */
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.send-btn {
+  width: 50%;
+  max-width: 100%; /* justera efter känsla maximal bredd för skicka knappen */
+  margin: 0 auto; /* centrerat knappen */
+  background: white;
+  color: black;
+  border: none;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 50px;
+  
+  
+}
+
+.googlemaps-container { /* image container */
+  display: flex;
+  flex-wrap: wrap; /* justera eller alternativt ta bort den */
+  justify-content: center;
+  padding-top: 5vh;
+  margin-left: 25vw;
+  width: 50%
+  
+}
+
+.googlemaps-container img { /* styling av image container */
+  max-width: 100%; /* anpassat bredden för att vara responsiv */
+  border-radius: 10px;
+}
+

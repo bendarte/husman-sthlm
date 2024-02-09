@@ -1,0 +1,26 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navbar custom style css */
+
+.transparent-navbar {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+
+.transparent-navbar .navbar-brand {
+    font-size: 22px;
+    color: rgb(252, 252, 252);
+}
+
+
+.transparent-navbar .nav-link {
+    font-size: 20px;
+    color: white !important;
+    
+}
+
+.transparent-navbar .navbar-toggler {
+    background-color: white;
+}
